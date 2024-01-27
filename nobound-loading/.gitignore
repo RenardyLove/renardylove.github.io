@@ -1,0 +1,12 @@
+.idea
+.git
+node_modules
+tests
+images
+
+gulpfile.js
+package.json
+package-lock.json
+background.psd
+background.jpg
+logo.png
