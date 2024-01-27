@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <style>
+
+        body {
+            background: #c72c2c;
+            background: -moz-linear-gradient(left, #630f0f 0%, #c72c2c 100%);
+            background: -webkit-linear-gradient(left, #630f0f 0%,#c72c2c 100%);
+            background: linear-gradient(to right, #630f0f 0%,#c72c2c 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#630f0f', endColorstr='#c72c2c',GradientType=1 );
+            margin: 0;
+            background-attachment: fixed;
+            background-image: url('img/asha.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .hexaneload-align {
+            left: 0;
+            margin: auto;
+            margin-top: -50px;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .hexaneload-spacer-branding {
+            margin-top: 160px;
+        }
+        .hexaneload-title {
+            font-family: 'Pacifico', cursive;
+            color: #ffffff;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: -20px;
+            font-weight: 500;
+        }
+
+        .hexaneload-hostname-hostname {
+            font-family: 'Luckiest Guy', cursive;
+            color: #ffffff;
+            font-size: 29px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+
+
+    </style>
+
+    <script type="text/javascript">
+        function GameDetails(servername){
+            document.getElementById("hexaneload-servername").innerHTML = servername;
+        }
+
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (!isChrome){
+            $('#iframeAudio').remove()
+        }
+        else {
+            $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="hexaneload-align">
+    <p class="hexaneload-title">Bienvenue! Vous vous connectez sur</p>
+    <p class="hexaneload-hostname-hostname" id="hexaneload-servername">Rosas</p>
+    <iframe src="rosas.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+    <audio autoplay loop id="playAudio">
+        <source src="rosas.mp3">
+    </audio>
+</div>
+
+</body>
+</html>
