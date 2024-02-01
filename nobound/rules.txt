@@ -1,0 +1,26 @@
+- Règles générales
+
+*Ne tentez pas d'exploiter le serveur ou d'agir avec une intention malveillante envers lui.
+*Ne tuez pas quelqu'un au hasard. (Appelé RDM - Random Death Match)
+*Ne harcelez pas ni n'agacez les autres joueurs. Cela inclut le racisme ou essayer délibérément d'offenser les autres.
+*Ne faites pas de spam. Cela inclut le chat vocal, le chat OOC, les publicités ou tout autre moyen de communication.
+*Ne prop mingez pas. Cela inclut le prop climb, surf, kill, block, bridge, push, trap ou spam.
+*Ne créez pas de panneaux texte offensants ou inappropriés.
+*Ne utilisez pas un nom RP inapproprié.
+*Laissez les administrateurs faire leur travail, s'ils sont occupés, soyez patient et attendez qu'ils aient fini.
+*Le scam pendant les transactions de vendeurs ou toute transaction de jeu de rôle n'est en aucun cas autorisé.
+*Aucune assistance aux CP (Civil Protection). Vous devez être une classe gouvernementale ou un garde du corps engagé par le maire pour aider les CP.
+*En général, utilisez le bon sens et amusez-vous.
+
+- Règles de construction
+
+*Pendant la construction, mettez en place un panneau qui indique "En construction" pour informer les autres que vous ne jouez pas un rôle.
+*Ne perturbez pas les personnes qui ont un panneau "En construction".
+*Un joueur doit pouvoir entrer et sortir de votre bâtiment en utilisant un casse-code ou un lockpick.
+*N'abusez pas de l'outil de porte éphémère. (Utiliser le pavé numérique pour le spam constant ou l'ouvrir et le fermer rapidement)
+*Les claviers doivent être connectés à une porte éphémère fonctionnelle.
+*Les claviers doivent avoir une durée de maintien de 5 secondes pour les portes éphémères. (Avec un délai initial de 0)
+*Ne créez pas de fissures minuscules dans votre base que les assaillants ne peuvent pas voir. (Trappes pour headshot et footshot)
+*Aucun avantage de désorientation tel que des pièces noires, des objets entièrement invisibles ou des effets de lueur mondiale.
+*Ne stockez pas d'entités sur les toits inaccessibles ou dans des zones inaccessibles en général.
+*Les bases dans le ciel ne sont pas autorisées.
