@@ -26,7 +26,7 @@ BODY
 	border-radius: 3px;
 	text-align: left;
 	padding: 1px;
-	background-color: rgba( 0, 0, 0, 0.6 );
+	background-color: rgba(255, 255, 255, 0.6);
 	float: right;
 }
 
@@ -124,8 +124,8 @@ body.dark
 {
 	display: inline-block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image: -webkit-gradient( linear, 0 0, 90% 0, 100% 0, from(  ), to( rgba( 0, 0, 0, 0 ) ), to( rgba( 0, 0, 0, 0 ) ) );
-	background-image: -webkit-linear-gradient( left, rgba( 0, 0, 0, 0.4 ) 0%, rgba( 0, 0, 0, 0.03 ) 75%, rgba( 0, 0, 0, 0 ) 100% );
+	background-image: -webkit-gradient( linear, 0 0, 90% 0, 100% 0, from(  ), to( rgba(255, 255, 255, 0) ), to( rgba(255, 255, 255, 0) ) );
+	background-image: -webkit-linear-gradient( left, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.03) 75%, rgba(255, 255, 255, 0) 100% );
 	padding: 20px;
 	padding-right: 180px;
 	visibility: hidden;
