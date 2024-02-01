@@ -32,7 +32,7 @@ BODY
 
 .reflection
 {
-	-webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), from(rgba(0, 0, 0, 0.0)), to(rgba(255, 255, 255, 0.5)));
+	-webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.5)));
 }
 
 .progressbar .inner
@@ -53,7 +53,7 @@ BODY
 	text-align: right;
 	font-size: 12px;
 	font-family: helvetica;
-	color: rgba( 0, 0, 0, 0.4);
+	color: rgba(255, 255, 255, 0.4);
 	letter-spacing: -1px;
 	text-shadow: 0px 0px 3px white;
 	overflow: hidden;
