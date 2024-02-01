@@ -9,7 +9,7 @@
 		<div id="background">
 			<div id="container">
 
-				<img src='img/no-bound_load.png' class="bounce"/>
+				<img src='img/gmod_logo_brave.png' class="bounce"/>
 
 				<center>
 					<br />
@@ -20,17 +20,14 @@
 
 			<div class="server_info">
 				<img id="mapimg" src="asset://mapimage/invalid_map"></img><div class="text">
-					<span id="serverName">A really long server name will be here that will be too long to fit on the loading screen</span><br>
-					<span id="serverMap">gm_hilldirt</span><br>
-					<span id="serverGamemode">Snadbox</span>
+					<span id="serverName">SERVER_NAME</span><br>
+					<span id="serverMap">Votre RP, vos règles (voir discord).</span><br>
+					<span id="serverGamemode">DarkRP - Semi-Serious</span>
 				</div>
 			</div>
 
 			<div id="spambox">
 			</div>
-			<audio autoplay loop id="playAudio">
-				<source src="rosas.mp3">
-			</audio>
 
 		</div>
 		<script type="text/javascript">
@@ -55,10 +52,10 @@
 			function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang, gamemodeNice )
 			{
 				$("#serverName").text( servername );
-				$("#serverMap").text( mapname );
-				$("#serverGamemode").text( gamemodeNice );
-				$("#mapimg").attr("src", "asset://mapimage/" + mapname );
-				$("body").css( "background-image", "url( 'asset://mapimage/" + mapname + "' )" );
+				//$("#serverMap").text( mapname );
+				//$("#serverGamemode").text( gamemodeNice );
+				//$("#mapimg").attr("src", "asset://mapimage/" + mapname );
+				//$("body").css( "background-image", "url( 'asset://mapimage/" + mapname + "' )" );
 
 				$(".server_info").addClass( "visible" );
 
